@@ -201,6 +201,11 @@
   position: relative;
 }
 
+.days li:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
 .dayToday {
   background: linear-gradient(175.47deg, #0033FF 4.54%, rgba(0, 100, 250, 0.84) 97.21%);
 }
