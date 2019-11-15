@@ -134,6 +134,7 @@
 
 .sub-container .calendar {
   width: 55vw;
+  /* min-width: 739px; */ 
   height: 82vh;
   background-color: #2A3560;
   display: flex;
@@ -268,3 +269,4 @@
 .six li:nth-child(1) {
   margin-left: 618px;
 }
+
