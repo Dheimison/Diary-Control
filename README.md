@@ -1,2 +1,2 @@
 # Diary-Control
-routine control tool
+## This is a tool for controlling daily activities.
