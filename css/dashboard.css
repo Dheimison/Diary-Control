@@ -153,31 +153,39 @@ aside ul li a.logout::before {
     transform: none;
   }
 
-  .backIcon::before {
-    content: '';
+  .backIcon {
     display: block;
-    height: 15px;
-    width: 3px;
-    background-color: #ffffff;
-    transform: rotate(45deg);
+    height: 30px;
+    width: 30px;
     position: absolute;
     right: 20px;
     top: 10px;
     cursor: pointer;
+    z-index: 2;
+  }
+
+  .backIcon::before {
+    content: '';
+    display: block;
+    height: 20px;
+    width: 3px;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 15px;
     z-index: 1;
   }
 
   .backIcon::after {
     content: '';
     display: block;
-    height: 15px;
+    height: 20px;
     width: 3px;
     background-color: #ffffff;
     transform: rotate(-45deg);
     position: absolute;
-    right: 20px;
-    top: 19px;
-    cursor: pointer;
+    right: 15px;
+    top: 13px;
     z-index: 1;
   }
 
@@ -185,5 +193,6 @@ aside ul li a.logout::before {
 
 .activeMobile {
   display: flex !important;
+  z-index: 2;
 }
 /* END Configs */

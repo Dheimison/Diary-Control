@@ -67,6 +67,10 @@ header .btnMenu {
     cursor: pointer;
   }
 
+  header .btnMenu:focus {
+    outline: 0;
+  }
+
   header .btnMenu::after {
     content: '';
     display: block;
