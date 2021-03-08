@@ -2,20 +2,16 @@
   "name": "simple-webcalendar",
   "version": "0.1.0",
   "private": true,
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "eslint --fix", "git add"
+      "eslint --fix"
     ]
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "next": "10.0.6",
