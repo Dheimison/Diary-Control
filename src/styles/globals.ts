@@ -12,7 +12,7 @@ export default createGlobalStyle`
     outline: 0;
   }
 
-  html, body {
+  html, body, #__next {
     height: 100%;
   }
 
@@ -32,7 +32,7 @@ export default createGlobalStyle`
   ul {
     list-style: none;
   }
-  
+
   button {
     cursor: pointer;
   }
